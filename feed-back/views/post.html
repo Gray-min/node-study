@@ -14,14 +14,15 @@
       </div>
     </div>
     <div class="row" style="margin: 5% 0;">
-      <div class="col-md-8">
-        <label>用户：</label>
+      <form action="/pinglun">
+        <div class="col-md-8">
+          <label>用户：</label>
 
-      </div>
-      <div class="col-md-8">
+        </div>
+        <div class="col-md-8">
 
-        <input type="text">
-      </div>
+          <input type="text" name="name">
+        </div>
     </div>
     <div class="row" style="margin: 5% 0;">
       <div class="col-md-8">
@@ -29,9 +30,14 @@
 
       </div>
       <div class="col-md-8">
-        <textarea width="150" height="100"></textarea>
+        <textarea width="150" height="100" name="comment"></textarea>
       </div>
-    </div>
+      <div class="row" style="margin: 5% 0;">
+        <div class="col-md-8">
+          <input type="submit" value="提交" />
+        </div>
+        </form>
+      </div>
 
 </body>
 
